@@ -5,7 +5,7 @@
 #####
 set -u pipefail
 
-. ./lib-logger.sh
+. ./src/lib-logger.sh
 
 LOG_LEVEL="$LOG_LEVEL_TRACE"
 #LOG_OUTPUT="/tmp/some/folders/my-file.log"
