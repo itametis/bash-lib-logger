@@ -17,7 +17,7 @@ To load and use this lib, just respect the following order.
 For instance : `export LOG_LEVEL="$LOG_LEVEL_DEBUG"`
 
 
-##### 2) Define a LOG_OUTPUT variable
+##### 2) Define a LOG_OUTPUT variable.
 
 For instance : `export LOG_OUTPUT="/var/log/my-file.log"`
 
@@ -36,6 +36,5 @@ LOGGER_logWarning "This log is written as WARNING level"
 LOGGER_logError "This log is written as ERROR level"
 ```
 
-#### Demo
-A screenshot of console output:
+The related console output:
 ![screenshot](doc/colored-output-demo.jpg)
