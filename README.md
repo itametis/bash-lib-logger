@@ -35,3 +35,7 @@ LOGGER_logInfo "This log is written as INFO level"
 LOGGER_logWarning "This log is written as WARNING level"
 LOGGER_logError "This log is written as ERROR level"
 ```
+
+#### Demo
+A screenshot of console output:
+![screenshot](doc/colored-output-demo.jpg)
