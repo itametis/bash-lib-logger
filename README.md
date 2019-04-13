@@ -29,11 +29,11 @@ or `export LOG_OUTPUT=""` to redirect all logs in the current output (generally 
 For instance :
 ```bash
 . ./lib-logger.sh
-LOGGER_logTrace "This log is written as TRACE level"
-LOGGER_logDebug "This log is written as DEBUG level"
-LOGGER_logInfo "This log is written as INFO level"
-LOGGER_logWarning "This log is written as WARNING level"
-LOGGER_logError "This log is written as ERROR level"
+LOGGER_logTrace "This log is written at TRACE level"
+LOGGER_logDebug "This log is written at DEBUG level"
+LOGGER_logInfo "This log is written at INFO level"
+LOGGER_logWarning "This log is written at WARNING level"
+LOGGER_logError "This log is written at ERROR level"
 ```
 
 The related console output:
