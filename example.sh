@@ -19,10 +19,10 @@ set -u pipefail
 
 . ./src/lib-logger.sh
 
-LOG_LEVEL="$LOG_LEVEL_TRACE"
+LOG_LEVEL="${LOG_LEVEL_TRACE}"
 
 LOG_OUTPUT=""
-LOG_OUTPUT="/tmp/some/folders/my-file.log"
+#LOG_OUTPUT="/tmp/some/folders/my-file.log"
 
 LOGGER_logTrace "This log is written at TRACE level"
 LOGGER_logDebug "This log is written at DEBUG level"
